@@ -31,10 +31,15 @@ main {
     padding: 20px;
     margin: 0 auto;
     margin-top: 80px;
+    background-color: white;
 }
 
 body {
     background-image: url(../images/paper_3.png)
+}
+
+p {
+    line-height: 30px;
 }
 
 .parent_div {
@@ -51,11 +56,17 @@ body {
     margin-left: 20px;
     text-decoration: none;
     font-size: 17px;
+
 }
 a {
     padding: 20px;
+    
 }
 
+form {
+    padding: 30px;
+    line-height: 25px;
+}
 
 .nav_bar a:hover {
     background-color: #ddd;
@@ -69,6 +80,8 @@ footer {
     position: fixed;
     bottom: 0;
     text-align: center;
+    border: 40px;
+    border-top-color: palevioletred;
 }
 
 .portfolio_images {
@@ -79,18 +92,20 @@ footer {
 
 input {
     width: 100%;
-    border-color: black;
+    border-color: gray;
     border-width: thin;
 }
 
 textarea {
     width: 100%;
-    border-color: black;
+    border-color: gray;
     border-width: thin;
 }
 
 #Submit {
     width: 100px;
+    background-color: palevioletred;
+    padding: 10px;
 }
 
 .row {
@@ -114,7 +129,7 @@ textarea {
 }
 
 .content {
-    background-color: white;
+    background-color: pink;
     padding: 10px;
 }
 
